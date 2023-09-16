@@ -7,4 +7,7 @@ function success(pos){
 function error(err){
   console.log(err);
 };
-navigator.geolocation.getCurrentPosition(success);
+var watchID = navigato.geolocation.watchPosition(success, error, {
+  enableHighjAccuracy: true
+});
+//navigator.geolocation.getCurrentPosition(success);
