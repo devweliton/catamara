@@ -1,0 +1,14 @@
+ <style> .popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    border: none;
+    background-image: linear-gradient(red, darkred);
+    color: whitesmoke;
+    text-align: center;
+      
+  } </style>
